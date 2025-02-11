@@ -4,7 +4,6 @@ public class EX1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-
         System.out.print("Digite a temperatura(F)° :");;
         int Fahrenheit = scanner.nextInt();
 
