@@ -7,9 +7,8 @@ public class JogosNomesInterativos {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.print("How many names you want to digit");
+        System.out.print("How many names you want to digit:");
         int quantidade = input.nextInt();
-        input.nextLine();
 
         String[] names = new String[quantidade];
 
