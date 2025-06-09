@@ -1,13 +1,13 @@
-package Exercices;
+package Exercices.List1;
 
 import java.util.Scanner;
 
 public class EX4 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
 
         System.out.println("Insira um valor:");
-        int valor = scanner.nextInt();
+        int valor = scan.nextInt();
 
         System.out.print("\n Quadrado do valor:");
         int quad = valor * valor ;
@@ -17,5 +17,6 @@ public class EX4 {
         int cub = valor * valor * valor;
         System.out.print(cub);
 
+        scan.close();
     }
 }

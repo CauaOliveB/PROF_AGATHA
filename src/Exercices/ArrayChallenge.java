@@ -24,7 +24,9 @@ public class ArrayChallenge {
 
         */
 
-        int[] Produtos = {""}
+         /*
+        int[] Produtos = {""};
+         */
         int legumes = 10;
         int massa = 8;
         int ovos = 4;
@@ -38,7 +40,7 @@ public class ArrayChallenge {
         |       Users       |
         *-------------------*
 
-        */
+         */
 
 
 
